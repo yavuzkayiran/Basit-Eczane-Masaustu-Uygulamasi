@@ -1,0 +1,17 @@
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\bin\Debug\EczaneOtomasyonu.exe.config
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\bin\Debug\EczaneOtomasyonu.exe
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\bin\Debug\EczaneOtomasyonu.pdb
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.csproj.AssemblyReference.cache
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Form1.resources
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Forms.Menu.resources
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Properties.Resources.resources
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.csproj.GenerateResource.cache
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.exe
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.pdb
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Forms.PersonelKayit.resources
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Forms.Ayarlar.resources
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Forms.IlacBilgi.resources
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Forms.HastaKayit.resources
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Forms.IlacSatis.resources
+C:\Users\yavuz\Desktop\Eczane Otomasyonu\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Forms.IlacYanEtkileri.resources

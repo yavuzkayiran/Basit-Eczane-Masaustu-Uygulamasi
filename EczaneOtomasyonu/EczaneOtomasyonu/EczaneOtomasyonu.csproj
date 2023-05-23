@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0DD5F87E-F6FA-4A4A-AAB1-DF84E0A83884}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EczaneOtomasyonu</RootNamespace>
+    <AssemblyName>EczaneOtomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EczaneDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EczaneDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EczaneDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EczaneDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EczaneDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EczaneDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EczaneDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EczaneDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EczaneDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EczaneDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EczaneDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EczaneDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EczaneDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EczaneDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EczaneDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EczaneDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ayarlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ayarlar.Designer.cs">
+      <DependentUpon>Ayarlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HastaKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HastaKayit.Designer.cs">
+      <DependentUpon>HastaKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IlacBilgi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IlacBilgi.Designer.cs">
+      <DependentUpon>IlacBilgi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IlacSatis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IlacSatis.Designer.cs">
+      <DependentUpon>IlacSatis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IlacYanEtkileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IlacYanEtkileri.Designer.cs">
+      <DependentUpon>IlacYanEtkileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PersonelKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PersonelKayit.Designer.cs">
+      <DependentUpon>PersonelKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GirisBilgiModel.cs" />
+    <Compile Include="Models\HastaBilgiModel.cs" />
+    <Compile Include="Models\IlacBilgiModel.cs" />
+    <Compile Include="Models\IlacSatisBilgiModel.cs" />
+    <Compile Include="Models\PersonelBilgiModel.cs" />
+    <Compile Include="Models\PersonelIletisimModel.cs" />
+    <Compile Include="Models\YetkiBilgiModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Querry\Querry.cs" />
+    <EmbeddedResource Include="Forms\Ayarlar.resx">
+      <DependentUpon>Ayarlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Giris.resx">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HastaKayit.resx">
+      <DependentUpon>HastaKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IlacBilgi.resx">
+      <DependentUpon>IlacBilgi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IlacSatis.resx">
+      <DependentUpon>IlacSatis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IlacYanEtkileri.resx">
+      <DependentUpon>IlacYanEtkileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PersonelKayit.resx">
+      <DependentUpon>PersonelKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="EczaneDataSet.xsc">
+      <DependentUpon>EczaneDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EczaneDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EczaneDataSet.xss">
+      <DependentUpon>EczaneDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet1.xsc">
+      <DependentUpon>EczaneDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EczaneDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EczaneDataSet1.xss">
+      <DependentUpon>EczaneDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet2.xsc">
+      <DependentUpon>EczaneDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EczaneDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EczaneDataSet2.xss">
+      <DependentUpon>EczaneDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet3.xsc">
+      <DependentUpon>EczaneDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EczaneDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EczaneDataSet3.xss">
+      <DependentUpon>EczaneDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet4.xsc">
+      <DependentUpon>EczaneDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EczaneDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EczaneDataSet4.xss">
+      <DependentUpon>EczaneDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet5.xsc">
+      <DependentUpon>EczaneDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EczaneDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EczaneDataSet5.xss">
+      <DependentUpon>EczaneDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet6.xsc">
+      <DependentUpon>EczaneDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EczaneDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EczaneDataSet6.xss">
+      <DependentUpon>EczaneDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet7.xsc">
+      <DependentUpon>EczaneDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="EczaneDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EczaneDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EczaneDataSet7.xss">
+      <DependentUpon>EczaneDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
